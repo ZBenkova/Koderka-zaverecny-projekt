@@ -1,0 +1,78 @@
+/* 
+#344E41 tmave zelena
+#3A5A40 dvojka
+#588157 trojka#
+#A3B18A svetle zelena
+#DAD7CD bezova
+ */
+ /* *, :after, :before { box-sizing: border-box; } */
+
+
+body {
+    font-family: Inter;
+}
+h1{
+    font-size: ;
+   
+}
+h2{
+    font-size: ;
+}
+header {
+    text-align: center;
+    font-weight: bold;
+    color: #19241f;
+    background-image: url(https://images.pexels.com/photos/4482679/pexels-photo-4482679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-position: right 32% bottom 70%;
+    background-size: cover;
+    opacity: 0.7;
+    margin-top: 3%;
+    margin-bottom: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+header h1 {
+    opacity: 1;
+}
+.panel {
+    background-color: #DAD7CD;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    box-shadow: -5px;
+    padding: 2% 0 2% 0%;
+    font-size: 17px;
+    opacity: 0.8;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+.panel .vyber{
+    color: #3A5A40;
+    background-color: #DAD7CD;
+    text-decoration: none;
+    /* padding: 0 8% 0 8%;
+    margin: 1%; */
+}
+.vyber{
+    flex-grow: 0,25;  
+}
+.druhy {
+    order: 1;-
+}
+
+#hlavni_obsah {
+    background-color: #DAD7CD;
+    color: #19241f;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 4% 8% 4% 8%;
+    text-align: justify;
+}
+#hlavni_obsah p {
+    margin-bottom: 10px;
+}
