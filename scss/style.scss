@@ -1,4 +1,340 @@
+/*# sourceMappingURL=style.css.map *//* 
+#344E41 tmave zelena
+#3A5A40 dvojka
+#588157 trojka#
+#A3B18A svetle zelena
+#DAD7CD bezova
+ */
+ /* *, :after, :before { box-sizing: border-box; } */
 
+ @import url(colors.scss);
+ @import url(fonts.scss);
+
+ @media screen and (max-width: 600px){
+    * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   body {
+       font-family: $fontFamilyInter;
+   }
+ 
+   header {
+       text-align: center;
+       font-weight: bold;
+       color: #080c0a;
+       background-image: url(https://images.pexels.com/photos/4482679/pexels-photo-4482679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+       padding: 10% 5%;
+       background-repeat: no-repeat;
+       background-position: right 32% bottom 70%;
+       background-size: cover;
+       opacity: 0.7;
+       margin-top: 2%;
+       margin-bottom: 0;
+       margin-left: 2%;
+       margin-right: 2%;
+   }
+   
+   header h1 {
+       opacity: 1;
+       background-color: $h1BgColor;
+       width: 100%;
+       margin: 0;
+       padding: 15px 20px;
+       margin-bottom: 10px;
+       margin-top: 0px;
+   }
+   
+   nav {
+       display: grid;
+       grid-template-rows: repeat(auto-fit, 30px);
+       grid-template-columns: 70%;
+       justify-content: center;
+       align-items: center;
+       gap: 5px;
+       padding: 15px 15px;
+       margin: 10px;
+       box-shadow: -5px;
+       width: 100%;
+   }
+   
+   
+   
+   .vyber {
+       text-align: center;
+       display: inline;
+       background-color: #DAD7CD;
+       text-decoration: none;
+       color: #304a35;
+       text-decoration: none;
+       padding: 2px 5px;
+       height: 30px;
+       width: 100%;
+       margin-bottom: 0px;
+   }
+   
+   
+   .vyber:active {
+      background-color: #b1b0aa;
+   }
+   
+   
+   #hlavni_obsah {
+       background-color: #f6f3ec;
+       color: #19241f;
+       margin-bottom: 1%;
+       margin-left: 2%;
+       margin-right: 2%;
+       padding: 4% 8% 4% 8%;
+       text-align: justify;
+   } 
+   
+   #hlavni_obsah p {
+       margin-bottom: 10px;
+   }
+   
+   .gallery {
+       display: grid;
+       grid-template-rows: repeat(30px);
+       grid-template-columns: 100%;
+        gap: 20px;
+       padding: 20px;
+   }
+   .photo {
+       position: relative;
+       overflow: hidden;
+      
+   }
+   
+   .photo img {
+       width: 100%;
+       height: auto;
+       display: block;
+   }
+   .photo figcaption {
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+       background-color:#344E41;
+       color: #ffffff;
+       padding: 10px;
+       text-align: center;
+   }
+   h1 {
+       font-size: 23px; 
+       font-weight: bold;
+       color: #344E41;
+       text-align: center;
+       margin-bottom: 20px;
+       text-transform: uppercase;
+       letter-spacing: 2px;
+       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+       padding: 15px;
+       padding-bottom: 0px;
+   }
+   
+   h2 {
+       font-size: 28px; 
+       font-weight: bold;
+       color: #344E41;
+       text-align: center;
+       margin-bottom: 20px;
+       text-transform: uppercase;
+       letter-spacing: 2px;
+       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  
+   }
+   
+   p {
+       font-size: 16px; 
+       line-height: 1.6; 
+       color: #555; 
+       margin-bottom: 20px; 
+   }
+   footer {
+       background-color: #DAD7CD; 
+       color: #ede9e9; 
+       padding: 20px 0;
+       text-align: center;
+       margin: 0% 2%;
+   }
+   li>p{
+    
+    font-size: 16px; 
+    line-height: 1.6; 
+    color: #555; 
+    margin-bottom: 40px; 
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 20px;
+
+}
+ 
+   }
+   
+
+
+@media screen and (min-width: 601px){
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Inter;
+}
+header {
+    text-align: center;
+    font-weight: bold;
+    color: #080c0a;
+    background-image: url(https://images.pexels.com/photos/4482679/pexels-photo-4482679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-position: right 32% bottom 70%;
+    background-size: cover;
+    opacity: 0.7;
+    margin-top: 3%;
+    margin-bottom: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+header h1 {
+    opacity: 1;
+    background-color: $h1BgColor;
+    width: 100%;
+    margin: 0;
+    padding: 40px 50px;
+    margin-bottom: 45px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 1s0px;
+    margin: 10px;
+    box-shadow: -5px;
+   
+}
+
+
+
+.vyber {
+    text-align: center;
+    display: inline;
+    background-color: #DAD7CD;
+    text-decoration: none;
+    color: #304a35;
+    text-decoration: none;
+    padding: 20px 50px;
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+
+.vyber:hover {
+   background-color: #b1b0aa;
+}
+
+
+#hlavni_obsah {
+    background-color: #f6f3ec;
+    color: #19241f;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 4% 8% 4% 8%;
+    text-align: justify;
+} 
+
+#hlavni_obsah p {
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+}
+.photo {
+    position: relative;
+    overflow: hidden;
+    background-color: #344E41;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.photo figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#344E41;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 36px; 
+    font-weight: bold;
+    color: #344E41;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 28px; 
+    font-weight: bold;
+    color: #344E41;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 16px; 
+    line-height: 1.6; 
+    color: #555; 
+    margin-bottom: 20px; 
+}
+footer {
+    background-color: #DAD7CD; 
+    color: #ede9e9; 
+    padding: 20px 0;
+    text-align: center;
+    margin: 0% 2%;
+}
+li>p{
+    
+    font-size: 16px; 
+    line-height: 1.6; 
+    color: #555; 
+    margin-bottom: 40px; 
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 20px;
+
+}
+
+section{
+    
+    justify-content: center;
+}
+}
 
 
 
